@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat - Kokoa Clone</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fa-solid fa-angle-left fa-2x"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <span class="alt-header__title">Kokoa talk</span>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+                <span><i class="fa-solid fa-bars fa-2x"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chats__timestamp">
+                Tuesday, June 30, 2025
+            </div>
+
+            <div class="message-row">
+                <img src="https://avatars.githubusercontent.com/u/175945535?v=4">
+                <div class="message-row__content">
+                    <span class="message__author">Kokoa talk</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Hi!</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">What's up?</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://kit.fontawesome.com/598efd558b.js" crossorigin="anonymous"></script>
+    </body>
+</html>
