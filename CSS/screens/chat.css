@@ -165,10 +165,9 @@
 .reply:focus-within .fa-face-smile,
 .reply:focus-within button {
     opacity: 0;
-    display: none;
 }
 
 .reply:focus-within input {
-    transform: translateX(-10%);
     width : 95vw;
+    transform: translateX(-5%);
 }
